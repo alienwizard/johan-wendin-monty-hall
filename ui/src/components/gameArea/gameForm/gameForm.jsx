@@ -27,7 +27,7 @@ export default function GameForm({onSubmit}) {
           <input required name="simulations" type="number" value={simulations} onChange={handleInputChanged}></input>
         </div>
         <div className="game-area__form-input-group">
-          <label htmlFor="openDoor">Do you open the door?</label>
+          <label htmlFor="openDoor">Do you change your chosen door?</label>
           <input name="openDoor" type="checkbox" checked={changeDoor} onChange={handleInputChanged}></input>
         </div>
         <input type="submit"></input>
