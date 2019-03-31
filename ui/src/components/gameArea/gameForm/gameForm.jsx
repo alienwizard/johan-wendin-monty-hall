@@ -22,9 +22,11 @@ export default function GameForm({onSubmit}) {
   return (
     <div className="game-area__form">
       <form onSubmit={() => onSubmit(JSON.stringify({simulations, changeDoor}))}>
-        <label htmlFor="simulations" >Games to run: </label>
-        <input required name="simulations" type="number" value={simulations} onChange={handleInputChanged}></input>
-        <div>
+        <div className="game-area__form-input-group">
+          <label htmlFor="simulations" >Games to run: </label>
+          <input required name="simulations" type="number" value={simulations} onChange={handleInputChanged}></input>
+        </div>
+        <div className="game-area__form-input-group">
           <label htmlFor="openDoor">Do you open the door?</label>
           <input name="openDoor" type="checkbox" checked={changeDoor} onChange={handleInputChanged}></input>
         </div>

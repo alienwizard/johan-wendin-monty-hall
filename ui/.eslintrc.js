@@ -3,7 +3,8 @@ module.exports = {
     "browser": true,
     "node": true,
     "commonjs": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
@@ -16,7 +17,8 @@ module.exports = {
   "plugins": [
     "react",
     "react-hooks",
-    "html"
+    "html",
+    "jest"
   ],
   "rules": {
     "indent": [

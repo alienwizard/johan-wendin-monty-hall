@@ -24,7 +24,5 @@ public class MontyHallControllerTest {
                 .post("/api/monty-hall")
                 .then()
                 .assertThat().statusCode(200);
-
-        // ResponseEntity expectedResponse = new ResponseEntity(new HttpStatus(200));
     }
 }

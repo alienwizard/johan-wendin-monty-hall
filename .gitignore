@@ -1,2 +1,5 @@
-/.vscode/
 /target/
+
+## UI
+/ui/node_modules/
+/ui/build/
