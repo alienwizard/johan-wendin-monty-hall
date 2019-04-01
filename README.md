@@ -9,3 +9,5 @@
 ## To start the Application
 
 Move to project root and run - ``` mvn spring-boot:run ```
+
+Navigate to http://localhost:8080 in your browser
