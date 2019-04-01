@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && node_modules/.bin/jest",
     "start": "node_modules/.bin/webpack-dev-server --env.development",
-    "build:production": "node_modules/.bin/webpack --env.production",
+    "build:production": "npm test && node_modules/.bin/webpack --env.production",
     "lint": "node_modules/.bin/eslint --ext .js,.html,.json ."
   },
   "keywords": [],
